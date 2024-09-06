@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>런스타 트레이너 블루 </title>
+    <style>
+        .BU{
+            margin-top: 5cm;
+            margin-left: 6cm;
+        }
+        .text1{
+            margin-top: -21.5cm;
+            margin-left: 33cm;
+        }
+        .text2{
+            margin-top: 1cm;
+            margin-left: 33cm;
+            width: 350px;
+            font-size: 25px;
+            
+        }
+        .text3{
+            margin-top: -17;
+            margin-left: 33cm;
+            width: 350px;
+            font-size: 20px;
+            
+        }
+        .RED1{
+            color: red;
+        }
+        .up1{
+            width: 1930px;
+            height: 70px;
+            background-color: #000000;
+            margin-left: -10px;
+            
+        }
+        .btn{
+            width: 70px;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid rgb(201, 201, 201);
+            margin-top: 20px;
+            margin-left: 33cm;
+            cursor: pointer; 
+        }
+        .btn:hover,
+        .btn:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn:visited{
+            background-color: #000;
+            color: white
+        }
+        .button {
+            border: 0;
+        }
+        .btn:focus,
+
+
+        .btn1{
+            width: 70px;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid rgb(201, 201, 201);
+            cursor: pointer;
+            
+        }
+        .btn2{
+            width: 70px;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid rgb(201, 201, 201);
+            cursor: pointer;
+            
+        }
+        .btn3{
+            width: 70px;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid rgb(201, 201, 201);
+            cursor: pointer;
+            
+        }
+        .btn4{
+            width: 70px;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid rgb(201, 201, 201);
+            cursor: pointer;
+            
+        }
+        .btn5{
+            width: 70px;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid rgb(201, 201, 201);
+            cursor: pointer;
+            
+        }
+        .btn6{
+            width: 70px;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid rgb(201, 201, 201);
+            cursor: pointer;
+            
+        }
+        .btn7{
+            width: 70px;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid rgb(201, 201, 201);
+            cursor: pointer;
+        }
+        .btn:hover,
+        .btn:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn:visited{
+            background-color: #000;
+            color: white
+        }
+        .button {
+            border: 0;
+        }
+        .btn:focus,
+        .btn1:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn1:hover,
+        .btn1:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn1:visited{
+            background-color: #000;
+            color: white
+        }
+        .button {
+            border: 0;
+        }
+        .btn1:focus,
+        .btn1:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn2:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn2:hover,
+        .btn2:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn2:visited{
+            background-color: #000;
+            color: white
+        }
+        .button {
+            border: 0;
+        }
+        .btn2:focus,
+        .btn2:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn3:hover,
+        .btn3:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn3:visited{
+            background-color: #000;
+            color: white
+        }
+        .button {
+            border: 0;
+        }
+        .btn3:focus,
+        .btn3:active{
+            background-color: #000000;
+            color:white;
+        }
+
+        .btn4:hover,
+        .btn4:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn4:visited{
+            background-color: #000;
+            color: white
+        }
+        .button {
+            border: 0;
+        }
+        .btn4:focus,
+        .btn4:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn6:hover,
+        .btn6:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn6:visited{
+            background-color: #000;
+            color: white
+        }
+        .button {
+            border: 0;
+        }
+        .btn6:focus,
+        .btn6:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn7:hover,
+        .btn7:active{
+            background-color: #000000;
+            color:white;
+        }
+        .btn7:visited{
+            background-color: #000;
+            color: white
+        }
+        .button {
+            border: 0;
+        }
+        .btn7:focus,
+        .btn7:active{
+            background-color: #000000;
+            color:white;
+        }
+        .tad{ /* 구매하기 */
+            width: 346px;
+            height: 51px;
+            background-color: #000000;
+            margin-left: 33cm;
+            margin-top: 0.3cm;
+            font-size: 24px;
+            cursor: pointer;
+            color: white;
+        }
+        .btn99{/* 장바구니 */
+            width: 346px;
+            height: 51px;
+            background-color: #000000;
+            margin-top: 10px;
+            margin-left: 33cm;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .do{
+            width: 1930px;
+            height: 100px;
+            background-color: #000000;
+            margin-left: -8px;
+            margin-top: 220px;
+        }
+        .con{
+            background-color: none;
+            color: #ffffff;
+            margin-top: -70px;
+            margin-left: 15px;
+            
+        }
+        a{
+            text-decoration-line: none;
+            color: #000;
+        }
+    </style>
+</head>
+<body style="background-color: #F5F5F5;">
+<!-- 하늘 테두리 -->
+<div class="up1"></div>
+<a href="1_Front-end-Practice.html">
+<div class="con"><h2>CONVERSE</h2></div></a>
+
+
+<!-- 신발 사진 -->
+    <div class="BU"><img src="img/UB.png" width="800" height="800"></div>
+
+
+<!-- 신발 소개글 -->
+    <div class="text1"><h2>런스타 트레이너 블루  </h2></div>
+    <b><pre class="text3">99,000원</pre></b>
+    <div class="text2"><p>스타 쉐브론 라인의 새로운 실루엣 런스타 트레이너. 
+         스포티하면서도 클래식한 디자인,세련된 컬러와 디테일로 어떤 스타일과도 잘 어울립니다.</p></div>
+
+
+ <!-- 미친 버튼 개많음 -->
+     <span><input  type="submit" value="230" class="btn">
+        <input type="submit" value="235" class="btn1">
+         <input type="submit" value="245" class="btn3">
+         <input type="submit" value="250" class="btn4">
+         <input type="submit" value="255" class="btn">
+         <input type="submit" value="260" class="btn6">
+         <input type="submit" value="265" class="btn7">
+         <input type="submit" value="270" class="btn7">
+         <input type="submit" value="275" class="btn7">
+         <input type="submit" value="280" class="btn">
+         <input type="submit" value="285" class="btn7">
+         <input type="submit" value="290" class="btn7">
+         <input type="submit" value="295" class="btn7">
+         <input type="submit" value="300" class="btn7"></span>
+
+
+         <input type="submit" value="장바구니" class="btn99" onclick="alert('장바구니에 추가되었습니다.')"">
+
+         <!-- 구매하기 버튼 -->
+         <a href="4_Front-end-practice-back.html">
+         <td><input type="submit" value="구매하기" class="tad"></td></a>
+
+         
+         <!-- 아래 마지막 -->
+         <div class="do"></div>
+         
+
+         
+       
+     
+     
+</body>
+</html>
